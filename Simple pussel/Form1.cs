@@ -17,10 +17,9 @@ namespace Simple_pussel
         int pictureid2 = 2;
         int pictureid3 = 3;
         int pictureid4 = 4;
-        // pussel bitar
+        //top vänster
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            timer1.Start();
             pictureid1 = pictureid1 + 1;
             if (pictureid1 == 1)
             {
@@ -43,10 +42,11 @@ namespace Simple_pussel
                 pictureid1 = 1;
                 pictureBox1.Image = Properties.Resources.row_1_column_1;
             }
+            win_check();
         }
+        // top höger
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            timer1.Start();
             pictureid2 = pictureid2 + 1;
             if (pictureid2 == 1)
             {
@@ -69,10 +69,11 @@ namespace Simple_pussel
                 pictureid2 = 1;
                 pictureBox2.Image = Properties.Resources.row_1_column_2;
             }
+            win_check();
         }
+        // botten vänster
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            timer1.Start();
             pictureid3 = pictureid3 + 1;
             if (pictureid3 == 1)
             {
@@ -95,10 +96,11 @@ namespace Simple_pussel
                 pictureid3 = 1;
                 pictureBox3.Image = Properties.Resources.row_2_column_1;
             }
+            win_check();
         }
+        // botten höger
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            timer1.Start();
             pictureid4 = pictureid4 + 1;
             if (pictureid4 == 1)
             {
@@ -121,6 +123,7 @@ namespace Simple_pussel
                 pictureid4 = 1;
                 pictureBox4.Image = Properties.Resources.row_2_column_2;
             }
+            win_check();
         }
         // stop skylten
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -130,7 +133,6 @@ namespace Simple_pussel
         // random knappen
         private void button1_Click(object sender, EventArgs e)
         {
-            timer1.Start();
             pictureid1 = RandomNumberGenerator.GetInt32(1, 4);
             pictureid2 = RandomNumberGenerator.GetInt32(1, 4);
             pictureid3 = RandomNumberGenerator.GetInt32(1, 4);
@@ -201,7 +203,7 @@ namespace Simple_pussel
             }
         }
         // Klar check
-        private void timer1_Tick(object sender, EventArgs e)
+        private void win_check()
         {
             if (pictureid1 == pictureid2 && pictureid2 == pictureid3 && pictureid3 == pictureid4)
             {

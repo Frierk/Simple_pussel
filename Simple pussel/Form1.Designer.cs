@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
@@ -36,7 +35,6 @@
             label1 = new Label();
             pictureBox5 = new PictureBox();
             Button1 = new Button();
-            timer1 = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -117,12 +115,6 @@
             Button1.UseVisualStyleBackColor = true;
             Button1.Click += button1_Click;
             // 
-            // timer1
-            // 
-            timer1.Enabled = true;
-            timer1.Interval = 500;
-            timer1.Tick += timer1_Tick;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -155,6 +147,5 @@
         private Label label1;
         private PictureBox pictureBox5;
         private Button Button1;
-        private System.Windows.Forms.Timer timer1;
     }
 }
