@@ -45,10 +45,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.row_1_column_1;
-            pictureBox1.Location = new Point(21, 40);
+            pictureBox1.Location = new Point(20, 40);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(306, 173);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.Size = new Size(310, 170);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -56,10 +56,10 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.row_1_column_21;
-            pictureBox2.Location = new Point(324, 40);
+            pictureBox2.Location = new Point(330, 40);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(306, 173);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.Size = new Size(310, 170);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
@@ -67,10 +67,10 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.row_2_column_12;
-            pictureBox3.Location = new Point(21, 210);
+            pictureBox3.Location = new Point(20, 210);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(306, 170);
-            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.Size = new Size(310, 170);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
             pictureBox3.Click += pictureBox3_Click;
@@ -78,10 +78,10 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.row_2_column_23;
-            pictureBox4.Location = new Point(324, 210);
+            pictureBox4.Location = new Point(330, 210);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(306, 170);
-            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.Size = new Size(310, 170);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 3;
             pictureBox4.TabStop = false;
             pictureBox4.Click += pictureBox4_Click;
@@ -97,9 +97,9 @@
             // pictureBox5
             // 
             pictureBox5.Image = Properties.Resources.Stop_sign;
-            pictureBox5.Location = new Point(636, 322);
+            pictureBox5.Location = new Point(646, 318);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(150, 116);
+            pictureBox5.Size = new Size(140, 120);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 5;
             pictureBox5.TabStop = false;
